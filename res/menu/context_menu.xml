@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/context_edit"
+        android:title="@string/title_activity_edit_joke">
+    </item>
+    <item
+        android:id="@+id/context_del"
+        android:title="@string/del_btn">
+    </item>
+
+</menu>

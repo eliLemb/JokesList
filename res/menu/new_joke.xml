@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/background_change_activity2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/background_change">
+        <menu>
+            <item
+                android:id="@+id/bg_red_a2"
+                android:title="@string/Red"/>
+            <item
+                android:id="@+id/bg_green_a2"
+                android:title="@string/Green"/>
+            <item
+                android:id="@+id/bg_blue_a2"
+                android:title="@string/Blue"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/exit_activity2"
+        android:orderInCategory="100"
+        android:title="@string/exit">
+    </item>
+
+</menu>

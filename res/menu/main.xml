@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jokeList="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_menu" >
+
+    <item
+        android:id="@+id/new_joke"
+        android:icon="@drawable/add_new"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/new_joke"/>
+    <item
+        android:id="@+id/background_change_activity1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/background_change">
+        <menu>
+            <item
+                android:id="@+id/bg_red_a1"
+                android:title="@string/Red"/>
+            <item
+                android:id="@+id/bg_green_a1"
+                android:title="@string/Green"/>
+            <item
+                android:id="@+id/bg_blue_a1"
+                android:title="@string/Blue"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/exit_activity1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@drawable/quit_icon"
+        android:title="@string/exit"/>
+
+</menu>
